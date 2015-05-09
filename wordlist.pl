@@ -1,7 +1,5 @@
 #!/usr/bin/perl
 
-$PRLDEFS="PERLDEFS";
-
 @subword = qw/ '  ' a b c d e f g h i j k l m n o p q r s t u v w x y z ca cc cd ce db df dg dh ei ej ew fa fc fd fe gb 
    gf gg gh hi hj hw ia ic id ie jb jf jg jh ma mc md me nb nf ng nh oi oj ow pa pc pd pe qb qf qg qh ri rj rw sa sc sd
    se tb tf tg th wl wp wq wr wv xk xm xn xo xu xx xy xz yl yp yq yr yv zs zt /;
