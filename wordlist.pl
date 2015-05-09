@@ -6,7 +6,9 @@ $PRLDEFS="PERLDEFS";
    gf gg gh hi hj hw ia ic id ie jb jf jg jh ma mc md me nb nf ng nh oi oj ow pa pc pd pe qb qf qg qh ri rj rw sa sc sd
    se tb tf tg th wl wp wq wr wv xk xm xn xo xu xx xy xz yl yp yq yr yv zs zt /;
    
-if ( ! open WORDS, "words") {
+   # The two space '  ' in the list is needed for 4-letter words for some reason. They would always fail until I added that.
+   
+if ( ! open WORDS, "words") {  #point this line to /usr/share/dict/words or whatever you want.
   die "I can't read the wordlist ($!)";
   }
   
