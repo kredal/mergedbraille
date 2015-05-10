@@ -49,7 +49,7 @@ while (<WORDS>) {
       last;
       }
     }
-  }
+  
   
   close WORDS;
   close GOODWORDS;
